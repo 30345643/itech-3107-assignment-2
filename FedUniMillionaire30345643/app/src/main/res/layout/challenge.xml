@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Challenge">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/questionpart"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Who was the first president of America ?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@drawable/questionbackground"
+        android:layout_marginEnd="10dp"/>
+    <ProgressBar
+        android:layout_marginTop="10dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/progressbar"
+        android:indeterminateOnly="false"
+        android:progress="60"
+        android:progressDrawable="@drawable/progressbarcycle"
+        app:layout_constraintTop_toBottomOf="@+id/questionpart"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/textcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15"
+        app:layout_constraintBottom_toBottomOf="@+id/progressbar"
+        app:layout_constraintEnd_toEndOf="@+id/progressbar"
+        app:layout_constraintStart_toStartOf="@+id/progressbar"
+        app:layout_constraintTop_toTopOf="@+id/progressbar" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/C1"
+        app:layout_constraintTop_toBottomOf="@+id/progressbar"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:text="George Washington"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/choiceback"
+        android:padding="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/C2"
+        app:layout_constraintTop_toBottomOf="@+id/C1"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:text="Barack Obama"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/choiceback"
+        android:padding="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/C3"
+        app:layout_constraintTop_toBottomOf="@+id/C2"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:text="Thomas Jefferson"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/choiceback"
+        android:padding="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/C4"
+        app:layout_constraintTop_toBottomOf="@+id/C3"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:text="Barack Obama"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/choiceback"
+        android:padding="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

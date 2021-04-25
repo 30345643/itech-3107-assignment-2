@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/scr"
+            android:icon="@drawable/ic_score"
+            android:title="Score" />
+        <item
+            android:id="@+id/sortD"
+            android:icon="@drawable/ic_sortup"
+            android:title="Sort by time" />
+        <item
+            android:id="@+id/sortS"
+            android:icon="@drawable/ic_sortup"
+            android:title="Sort by score" />
+    </group>
+</menu>

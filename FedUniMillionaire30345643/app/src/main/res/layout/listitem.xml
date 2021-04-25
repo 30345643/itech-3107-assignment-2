@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="1dp"
+    android:layout_margin="2dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="Name    :"/>
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="Name :" />
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Score      :" />
+    <TextView
+        android:id="@+id/score1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@+id/score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="score" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Date        :" />
+    <TextView
+        android:id="@+id/date1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:layout_toRightOf="@+id/date"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="date" />
+
+    <TextView
+        android:id="@+id/difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Difficulty :" />
+    <TextView
+        android:id="@+id/difficulty1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date1"
+        android:layout_toRightOf="@+id/difficulty"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="date"
+        />
+
+
+</RelativeLayout>
